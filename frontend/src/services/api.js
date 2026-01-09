@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://student-used-goods-marketplace.onrender.com/",
+  baseURL: "https://student-used-goods-marketplace.onrender.com/api",
 });
 
 // attach token automatically
